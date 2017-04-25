@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "586026530294",
+    "project_id": "aqueous-abbey-165608"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:586026530294:android:a6eae95b1eae52e6",
+        "android_client_info": {
+          "package_name": "arzun.project.com.signin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "586026530294-h7amdsi6r45v4lhc0dgr7jvkc81ai1ld.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "arzun.project.com.signin",
+            "certificate_hash": "eef88511f1649f02e34957e4f0d9a5fb9cd919cc"
+          }
+        },
+        {
+          "client_id": "586026530294-kbrll9afhb02aq9pgcideqd791qumrp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnXEq7zQ8YyHVNr7hM76eBi0tX3i9bQEc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

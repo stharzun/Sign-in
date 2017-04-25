@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sign In</string>
+    <string name="forgetpassword"><a>Forget Password ?</a></string>
+    <string name="termcondition"><a>Terms and Condition</a></string>
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="mobileerror">Enter a valid mobile</string>
+    <string name="passworderror">Enter Password Again</string>
+
+    <string name="facebook_app_id">368042033593548</string>
+
+</resources>
