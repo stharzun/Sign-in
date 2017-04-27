@@ -71,10 +71,6 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 .addApi(Plus.API)
                 .build();
         btnGoogle=(SignInButton)findViewById(R.id.google_login_bn);
-
-
-
-
         term.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -123,6 +119,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 String password=sharedPreferences.getString("Password","");
                 if (logEmail.getText().toString().equals(email) && logPassword.getText().toString().equals(password)){
                     Intent loginSucess=new Intent(MainActivity.this,UserDetailActivity.class);
+                    Bundle b=new Bundle();
+                    b.putString("ID","1");
+                    loginSucess.putExtras(b);
                     startActivity(loginSucess);
                 }
 
@@ -152,6 +151,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 editor.putString("Email", id);
                 editor.apply();
                 Intent loginSucess=new Intent(MainActivity.this,UserDetailActivity.class);
+                Bundle b=new Bundle();
+                b.putString("ID","2");
+                loginSucess.putExtras(b);
                 startActivity(loginSucess);
 
 
@@ -210,6 +212,9 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.O
                 editor.putString("Email", email);
             editor.apply();
             Intent loginSucess=new Intent(MainActivity.this,UserDetailActivity.class);
+            Bundle b=new Bundle();
+            b.putString("ID","3");
+            loginSucess.putExtras(b);
             startActivity(loginSucess);
         }
         else {
